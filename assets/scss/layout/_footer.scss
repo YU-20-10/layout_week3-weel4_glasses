@@ -1,0 +1,130 @@
+.footer {
+  background: #aa0601;
+  color: #ffffff;
+
+  a {
+    display: block;
+    color: #ffffff;
+  }
+
+  &-content {
+    justify-content: space-between;
+    padding-top: 48px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #ffffff;
+  }
+
+  &-contact {
+    font-size: 36px;
+
+    &-icon {
+      font-size: 36px;
+      vertical-align: text-bottom;
+      margin-right: 16px;
+    }
+  }
+
+  &-contact>a:hover {
+    color: #650300;
+  }
+
+  &-social-icon {
+    width: 48px;
+    height: 48px;
+  }
+
+  &-social-icon:hover {
+    transform: scale(1.2);
+  }
+
+  &-copyright {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    &-link-wrap {
+      display: flex;
+    }
+
+    &-link {
+      font-size: 14px;
+    }
+
+    &-link:hover {
+      color: #650300;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    &-social-icon {
+      height: 24px;
+      width: 24px;
+    }
+
+    &-contact {
+      font-size: 16px;
+
+      &-icon {
+        font-size: 16px;
+        margin-right: 10px;
+      }
+    }
+
+    &-copyright {
+      display: block;
+
+      &-text {
+        margin-bottom: 8px;
+      }
+
+      &-link-wrap {
+        display: block;
+      }
+
+      &-link {
+        display: block;
+      }
+    }
+  }
+}
+
+.footer-navbar {
+  margin-bottom: 24px;
+
+  &-item {
+    > a {
+      padding-top: 12px;
+      padding-bottom: 12px;
+    }
+    
+    >a:hover {
+      color: #650300
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    display: none;
+  }
+}
+
+.footer-navbar-item + .footer-navbar-item {
+  margin-left: 48px;
+}
+
+.footer-social-item + .footer-social-item {
+  margin-left: 32px;
+
+  @media screen and (max-width:576px) {
+    margin-left: 8px;
+  }
+}
+
+.footer-copyright-link + .footer-copyright-link {
+  margin-left: 48px;
+
+  @media screen and (max-width: 576px) {
+    margin-left: 0px;
+    margin-top: 8px;
+  }
+}

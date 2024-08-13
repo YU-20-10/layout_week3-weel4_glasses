@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <title>首頁</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+
+    <section class="banner">
+      <div class="container d-flex">
+        <div class="banner-text-wrap">
+          <h3 class="banner-header text-primary">
+            Promise-Desert 2020 早春系列
+          </h3>
+          <p class="banner-text text-primary">看得清，才能看得遠</p>
+          <button type="button" class="banner-btn bg-primary">立即購買</button>
+        </div>
+      </div>
+    </section>
+    <section class="introduction bg-secondary">
+      <div class="container">
+        <h2 class="introduction-header text-primary h2-text">
+          用專業的心，做專業的事
+        </h2>
+        <ul class="card-list d-flex flex-wrap">
+          <li class="card d-flex flex-column">
+            <img
+              src="../assets/images/home-section2-1.png"
+              alt=""
+              class="card-img"
+            />
+            <h4 class="card-title text-primary">單一價格</h4>
+            <p>無論任何度數皆不需追加費用即可擁有適合自己的薄型球面鏡片。</p>
+          </li>
+          <li class="card d-flex flex-column">
+            <img
+              src="../assets/images/home-section2-2.png"
+              alt=""
+              class="card-img"
+            />
+            <h4 class="card-title text-primary">20 分鐘即可取件</h4>
+            <p>
+              為了您的寶貴時間著想，以豐富專業知識與技術將結帳到交件的時間縮減至最快
+              20 分鐘即可完成。
+            </p>
+          </li>
+          <li class="card d-flex flex-column">
+            <img
+              src="../assets/images/home-section2-3.png"
+              alt=""
+              class="card-img"
+            />
+            <h4 class="card-title text-primary">安心售後服務</h4>
+            <p>
+              我們提供長達 120
+              天的保固售後服務，不限會員資格皆享有免費深層保養及專業維修服務。
+            </p>
+          </li>
+          <li class="card d-flex flex-column">
+            <img
+              src="../assets/images/home-section2-4.png"
+              alt=""
+              class="card-img"
+            />
+            <h4 class="card-title text-primary">關於鏡片</h4>
+            <p>使用世界知名頂級品牌，抗UV、防汙鍍膜薄型非球面鏡片。</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="classic">
+      <div class="container">
+        <h2 class="classic-header h2-text text-primary">經典系列鏡框</h2>
+        <ul class="card-list">
+          <li class="card">
+            <img
+              src="../assets/images/home-section3-1.png"
+              alt="branding"
+              class="card-img"
+            />
+            <h3 class="card-text">OPTICAL</h3>
+          </li>
+          <li class="card">
+            <img
+              src="../assets/images/home-section3-2.png"
+              alt="branding"
+              class="card-img"
+            />
+            <h3 class="card-text">SUNGLASSES</h3>
+          </li>
+          <li class="card">
+            <img
+              src="../assets/images/home-section3-3.png"
+              alt="branding"
+              class="card-img"
+            />
+            <h3 class="card-text">FUNCTIONAL</h3>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="collaboration">
+      <div class="container">
+        <h2 class="collaboration-header text-light h2-text">聯名設計鏡框</h2>
+        <ul class="card-list d-flex text-primary">
+          <li class="card">
+            <picture>
+              <source
+                media="(max-width:576px)"
+                srcset="../assets/images/home-section4-1-sm.png"
+              />
+              <img src="../assets/images/home-section4-1.png" alt="branding" />
+            </picture>
+            <h3 class="card-text">DOUBLE A+</h3>
+          </li>
+          <li class="card">
+            <picture>
+              <source
+                media="(max-width:576px )"
+                srcset="../assets/images/home-section4-2-sm.png"
+              />
+              <img src="../assets/images/home-section4-2.png" alt="branding" />
+            </picture>
+            <h3 class="card-text">YOUTH</h3>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="recommend">
+      <div class="container">
+        <h2 class="recommend-header h2-text text-primary">顧客推薦</h2>
+        <ul class="card-list d-flex">
+          <li class="card d-flex flex-column">
+            <img src="../assets/images/home-section5-1.png" alt="customer" />
+            <div class="card-body d-flex flex-column">
+              <div class="card-text-wrap">
+                <p class="card-text">Jessy</p>
+                <p class="card-text">眼鏡品質優良，下次還會想來這邊購買！</p>
+              </div>
+              <time class="card-footer text-gray">2021/06/20</time>
+            </div>
+          </li>
+          <li class="card d-flex flex-column">
+            <img src="../assets/images/home-section5-2.png" alt="customer" />
+            <div class="card-body d-flex flex-column">
+              <div class="card-text-wrap">
+                <p class="card-text">凱倫</p>
+                <p class="card-text">
+                  做工細緻、鏡架很輕盈，待久也不會覺得有負擔，推薦給大家！
+                </p>
+              </div>
+              <time class="card-footer text-gray">2021/04/18</time>
+            </div>
+          </li>
+          <li class="card d-flex flex-column">
+            <img src="../assets/images/home-section5-3.png" alt="customer" />
+            <div class="card-body d-flex flex-column">
+              <div class="card-text-wrap">
+                <p class="card-text">悠悠</p>
+                <p class="card-text">
+                  謝謝客服人員的詳細回答，成功買到了喜歡的眼鏡，下次會再回購！
+                </p>
+              </div>
+              <time class="card-footer text-gray">2020/12/25</time>
+            </div>
+          </li>
+          <li class="card d-flex flex-column">
+            <img src="../assets/images/home-section5-4.png" alt="customer" />
+            <div class="card-body d-flex flex-column">
+              <div class="card-text-wrap">
+                <p class="card-text">Kyuan</p>
+                <p class="card-text">服務很好，品質沒有任何問題，非常喜歡。</p>
+              </div>
+              <time class="card-footer text-gray">2020/10/31</time>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="contact bg-secondary">
+      <div class="container d-flex flex-column">
+        <h2 class="contect-header h2-text">聯絡我們</h2>
+        <div class="form-wrap">
+          <p class="form-text">
+            我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。
+          </p>
+          <form action="" class="form d-flex flex-column">
+            <div class="form-input-wrap">
+              <label for="name" class="form-label d-block">姓名</label>
+              <input type="text" class="form-input" name="name" id="name" placeholder="陳小明"/>
+            </div>
+            <div class="form-input-wrap">
+              <label for="phone-number" class="form-label d-block">聯絡電話</label>
+              <input type="text" class="form-input" name="phone-number" id="phone-number" placeholder="0912-345-678"/>
+            </div>
+            <div class="form-input-wrap">
+              <label for="mail" class="form-label d-block">電子郵件</label>
+              <input type="text" class="form-input" name="mail" id="mail" placeholder="example@email.com"/>
+            </div>
+            <div class="form-input-wrap">
+              <label for="feedback" class="form-label d-block">意見反應</label>
+              <textarea class="form-textarea" name="feedback" id="feedback" placeholder="請輸入您的意見"></textarea>
+            </div>
+            <div>
+              <input type="checkbox" class="form-checkbox" />
+              <label for="" class="form-label">我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。</label>
+            </div>
+            <button type="submit" class="form-btn bg-primary text-light">確認送出</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
